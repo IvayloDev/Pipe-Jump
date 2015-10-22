@@ -5,8 +5,8 @@ using GoogleMobileAds;
 public class AdController : MonoBehaviour {
 
 	private AdMobPlugin admob;
-	private const string Ad_UNIT_ID = "ca-app-pub-4847787002677683/6149145857";
-	private const string Interstitial_ID = "ca-app-pub-4847787002677683/9109932253";
+	private const string Ad_UNIT_ID = "Banner_ID";
+	private const string Interstitial_ID = "Interstitial_ID";
 	bool seenAd = false;
 
 	void Awake() {
